@@ -1,0 +1,34 @@
+{
+  "name": "dsync-agent-kit",
+  "version": "1.0.0",
+  "description": "SQL Server to Cosmos DB migration and sync skill for AI coding agents, powered by dsync",
+  "keywords": [
+    "dsync",
+    "migration",
+    "sql-server",
+    "cosmosdb",
+    "agent-skills",
+    "ai",
+    "copilot",
+    "claude",
+    "agent-kit"
+  ],
+  "author": "Adiom Data",
+  "license": "MIT",
+  "homepage": "https://github.com/AdiomData/dsync-agent-kit#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdiomData/dsync-agent-kit.git"
+  },
+  "files": [
+    "skills/**/*"
+  ],
+  "scripts": {
+    "build": "node scripts/compile.js",
+    "validate": "node scripts/validate.js"
+  },
+  "devDependencies": {
+    "glob": "^10.3.0",
+    "gray-matter": "^4.0.3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "dsync-migration",
+  "version": "1.0.0",
+  "description": "Guides AI agents through SQL Server to Cosmos DB migration using dsync, including connector config generation, execution, and validation.",
+  "author": "Adiom Data",
+  "license": "MIT",
+  "compatibility": [
+    "claude-code",
+    "github-copilot",
+    "gemini-cli",
+    "factory-droid",
+    "opencode",
+    "codex"
+  ],
+  "tags": [
+    "dsync",
+    "migration",
+    "sql-server",
+    "cosmosdb",
+    "database-modernization"
+  ],
+  "workflow_position": "step-5",
+  "workflow_description": "Executes after assessment, schema conversion, Bicep infra, and deployment steps"
+}
